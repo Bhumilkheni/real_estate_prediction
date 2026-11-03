@@ -1,0 +1,24 @@
+artifact_path: file:///C:/Users/Dell/Data Science/Machine Learning/ML Project/Real
+  Estate/mlruns/1/models/m-d4803d44522d4a818480b71acb220e4e/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.17.2
+model_id: m-d4803d44522d4a818480b71acb220e4e
+model_size_bytes: 525270
+model_uuid: m-d4803d44522d4a818480b71acb220e4e
+prompts: null
+run_id: b39ac0882e1d484a8dffa9a01840f2cb
+utc_time_created: '2026-11-03 07:54:01.814571'
